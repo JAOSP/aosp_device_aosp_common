@@ -8,15 +8,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AllAudio.mk)
 
-PRODUCT_PACKAGES += \
-	OpenWnn \
-	PinyinIME \
-	libWnnEngDic \
-	libWnnJpnDic \
-	libwnndict \
-	Calendar \
-	Music \
-	Provision \
-	QuickSearchBox
-
 $(call inherit-product, device/aosp/common/common.mk)
